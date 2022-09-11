@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed May  6 18:20:08 2020
-
-@author: Hidasi Balázs
-"""
 
 import time
 import numpy as np
