@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Apr  6 18:14:46 2016
-
-@author: Balázs Hidasi
-"""
 
 import sys
 sys.path.append('../..')
