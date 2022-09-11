@@ -37,11 +37,4 @@ if __name__ == '__main__':
     print('Recall@20: {}'.format(res[0]))
     print('MRR@20: {}'.format(res[1]))
     
-    #OUTDATED!!!
-    #Reproducing results from the original paperr"Session-based Recommendations with Recurrent Neural Networks" on RSC15 (http://arxiv.org/abs/1511.06939)
-    #print('Training GRU4Rec with 100 hidden units')    
-    #gru = gru4rec.GRU4Rec(loss='top1', final_act='tanh', hidden_act='tanh', layers=[100], batch_size=50, dropout_p_hidden=0.5, learning_rate=0.01, momentum=0.0, time_sort=False)
-    #gru.fit(data)
-    #res = evaluation.evaluate_gpu(gru, valid)
-    #print('Recall@20: {}'.format(res[0]))
-    #print('MRR@20: {}'.format(res[1]))
+    
