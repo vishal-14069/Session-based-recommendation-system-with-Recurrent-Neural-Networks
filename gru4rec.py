@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 22 15:14:20 2015
-@author: Balázs Hidasi
-"""
-
 import os
 import os.path
 orig_cwd = os.getcwd()
