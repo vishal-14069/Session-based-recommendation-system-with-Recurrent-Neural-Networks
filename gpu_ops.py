@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 10 14:17:58 2017
-
-@author: Balázs Hidasi
-"""
-
 import theano
 from theano import tensor as T
 import numpy as np
