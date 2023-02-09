@@ -411,4 +411,5 @@ class BPR:
         return pd.Series(data=self.I[iIdxs].dot(uF) + self.bI[iIdxs], index=predict_for_item_ids)
              
     def sigmoid(self, x):
+        
         return 1.0 / (1.0 + np.exp(-x))
